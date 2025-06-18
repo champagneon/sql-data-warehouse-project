@@ -11,7 +11,7 @@ Actions Performed:
 	- Insert transformed and cleansed data from Bronze into Silver tables.
 
 Usage Example:
-	CALL silver.load_silver()
+	CALL silver.load_silver();
 ============================================================================
 */
 
