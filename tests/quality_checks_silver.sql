@@ -1,12 +1,14 @@
 /*
 ==========================================================
-Quality Checks
+Quality Checks 
 ==========================================================
 Script Purpose:
+	Ensure the purity of the data before and after
+	inserting from Bronze into Silver.
 
+	Each check can be adjusted according to tables
+	(e.g. can check prd_id instead of cst_id etc.)
 */
-
-
 
 -- check for nulls or duplicates in primary key
 -- expectation: no result 
