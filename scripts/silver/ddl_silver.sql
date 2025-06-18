@@ -1,3 +1,13 @@
+/*
+============================================================================
+DDL Script: Create silver tables
+============================================================================
+Script Purspose:
+  Creates tables in silver schema, dropping any tables that already exists.
+  Run this script to re-define the DDL Sctructure of silver tables
+============================================================================
+*/
+
 truncate table silver.crm_cust_info;
 -- inserting clean data from bronze to silver =====================================================================================
 insert into silver.crm_cust_info (
