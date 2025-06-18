@@ -6,6 +6,8 @@ Script Purspose:
   Creates tables in bronze schema, dropping any tables that already exists.
   Run this script to re-define the DDL Sctructure of bronze tables
 ============================================================================
+P.S Creating stored procedure is not possible with "LOAD DATA LOCAL INFILE" in MYSQL.
+Run this script manually.
 */
 
 
