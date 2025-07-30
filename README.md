@@ -19,17 +19,6 @@ The project follows the medallion architecture approach:
 	•	Language: SQL
 	•	Tools: MySQL Workbench, Git, CSV
 
- 📂 Repository Structure
- project/
-├── datasets/           # Raw CSV files
-├── scripts/
-│   ├── bronze/         # Scripts to load raw data
-│   ├── silver/         # Data cleaning and transformation scripts
-│   ├── gold/           # Fact and dimension tables
-│   └── init_database.sql
-├── tests/              # Data quality checks
-└── reports/            # Analytical SQL queries
-
 🚀 How to Run
 	1.	Clone the repository.
 	2.	Create a MySQL database using the init_database.sql script.
