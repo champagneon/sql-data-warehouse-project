@@ -47,3 +47,13 @@ The project follows the medallion architecture approach:
 	•	Trend analysis: Monitor monthly revenue growth and seasonality.
 	•	Product performance: Evaluate best-selling product categories.
 	•	KPI reporting: Build a foundation for executive dashboards and business insights.
+
+ 📈 Results and Insights
+	•	Built a fully functional data warehouse for sales analysis.
+	•	Optimized SQL queries through proper data modeling and normalization.
+	•	Prepared the foundation for creating interactive dashboards in Power BI / Looker Studio.
+
+ 🚀 Future Improvements
+	•	Integrate Power BI for data visualization and reporting.
+	•	Implement an ETL process to automate data loading.
+	•	Add additional analytical queries and key performance indicators (KPIs).
