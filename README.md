@@ -10,6 +10,7 @@ The goal is to design a robust data architecture, implement ETL processes, and b
 🏗 Data Architecture
 
 The project follows the medallion architecture approach:
+<img width="1544" height="800" alt="data_architecture" src="https://github.com/user-attachments/assets/0e6f87ff-693a-4cbf-a00e-a8a36323f8f2" />
 	•	Bronze — raw data ingestion from CSV files.
 	•	Silver — data cleaning, standardization, and transformation.
 	•	Gold — creation of business-ready fact and dimension tables for analytics and reporting.
@@ -17,7 +18,7 @@ The project follows the medallion architecture approach:
 ⚙️ Technologies Used
 	•	Database: MySQL 8+
 	•	Language: SQL
-	•	Tools: MySQL Workbench, Git, CSV
+	•	Tools: MySQL Workbench, DBeaver, Git, CSV
 
 🚀 How to Run
 	1.	Clone the repository.
